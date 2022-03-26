@@ -7,6 +7,7 @@ Implemented features:
 2. Serving profile page template with render_template.
 3. Using bootstrap to make the page more plesant and responsive.
 4. Also using some icons from Font Awesome.
+5. There is a navbar to make the navegation easier.
 
 TODO:
 1. Put the CSS in a separated file. It's currently inside the HTLM.
