@@ -1,6 +1,6 @@
 # Gabriel-Araujo-hw1
 
-The page have 4 sections: a short description about me, some technologies that I'am familiar with, a short description of 3 of mine and my contact informations.
+The page have 4 sections: a short description about me, some technologies that I'am familiar with, a short description of 3 projects of mine and my contact informations.
 
 Implemented features:
 1. Redirecting default route to '/profile'
