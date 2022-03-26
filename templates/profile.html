@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/53ff241ccc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <title>Profile Page</title>
+
+    <style>
+      .nav-shadow {
+        text-shadow: black 0px 0px 10px, rgb(27, 26, 26) 0px 0px 20px,black 0px 0px 30px, rgb(51, 51, 51) 0px 0px 40px;
+      }
+
+      .colapse-menu-icon {
+        border: 0;
+        text-shadow: black 0px 0px 10px, rgb(27, 26, 26) 0px 0px 20px, rgb(0, 0, 0) 0px 0px 30px;
+      }
+
+      .pt-70{
+        padding-top: 70px !important;
+      }
+
+      .profile-pic {
+        border-width: 3px !important;
+      }
+
+      .navbar-collapse.show {
+        text-align: center;
+      }
+
+      .space-mono {
+        font-family: 'Space Mono', monospace;
+      }
+
+      .source-code-pro {
+        font-family: 'Source Code Pro', monospace;
+      }
+
+      body{
+        font-family: 'Roboto', sans-serif !important;
+      }
+
+      .telegram{
+        color: #0a82ff;
+      }
+
+      .linkedin{
+        color: #27b3f1;
+      }
+
+      .github{
+        color: #800080;
+      }
+    </style>
+  </head>
+  <body class="bg-secondary">
+    <div class="fixed-top col-12 col-sm-11 col-md-8 col-lg-6 col-xl-5 mx-auto">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <button class="navbar-toggler mx-auto text-light colapse-menu-icon" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-ellipsis"></i>
+        </button>
+        
+        <div class="collapse navbar-collapse nav-shadow" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light" href="#about">About Me</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light" href="#technologies">Technologies</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="m-0 col-3 col-sm-6 col-md-7 mx-auto border-white">
+    </div>
+    <div class="container py-3 px-4 bg-dark pt-70">
+      <div id="about" class="row d-flex justify-content-around mb-5 mt-sm-3">
+        <div class="text-light col-8 col-sm-6 col-lg-3 d-flex align-items-center mb-3 mb-sm-0">
+          <div class="flex-column">
+            <h2 class="source-code-pro font-weight-bold">H3ll0 W0rld!</h2>
+            <span class="lead space-mono">
+              My name is <strong>Gabriel Araujo</strong> 
+              and I'm a brazilian web developer from Niterói - RJ. 
+              I'm in the 4th year of Computer Science at Universidade Federal Fluminense. 
+            </span>
+            <span class="d-none d-md-flex d-lg-none lead space-mono mt-3">
+              Although I'm currently doing a semester exchange at ITMO University and living in Saint Petersburg, Russia.
+              Furthermore, I'm working remotly on some projects for clients in Brazil. 
+            </span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center col-6 col-sm-6 col-lg-4">
+          <img src="static/profile.jpg" class="rounded-circle border-bottom border-top border-light img-fluid profile-pic" alt="...">
+        </div>
+        <div class="text-light col-lg-3 d-lg-flex align-items-center d-none">
+          <div class="flex-column">
+            <span class="lead space-mono">
+              Although I'm currently doing a semester exchange at ITMO University and living in Saint Petersburg, Russia.
+              Furthermore, I'm working remotly on some projects for clients in Brazil. 
+            </span>
+          </div>
+        </div>
+      </div>
+      <div id="technologies" class="mb-5">
+        <div class="mx-auto w-75 h2 row d-flex justify-content-around">
+          <i class="fa-brands fa-python text-primary"></i>
+          <i class="fa-brands fa-html5" style="color: #de3f13"></i>
+          <i class="fa-brands fa-css3-alt" style="color: #0674b8"></i>
+          <i class="fa-brands fa-js-square" style="color: #ffb800"></i>
+          <i class="fa-solid fa-gem" style="transform: rotate(-25deg); color: #bf0713;"></i>
+          <i class="fa-brands fa-bootstrap" style="color: #7606e9""></i>
+          <i class="fa-brands fa-docker text-info"></i>
+          <i class="fa-solid fa-database" style="color: #de5e13"></i>
+          <i class="fa-brands fa-figma" style="color: #7e29ee"></i>
+        </div>  
+      </div>
+      <div class="mb-4">
+        <h2 id="projects" class="text-light mb-4 text-center"><i class="fa-solid fa-code mr-2"></i>Projects</h2>
+        <div class="row justify-content-around">
+          <div class="card mb-4" style="width: 18rem;">
+            <img src="static/sistUniThumb.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-justify">
+                A system to load university student data from a csv file and generate some metrics about those students, their courses and their majors.
+              </p>
+            </div>
+            <div class="row justify-content-around mt-auto px-4 mb-3">
+              <span class="badge rounded-pill text-light col-3 my-1" style="background-color: #de3f13"><i class="fa-brands fa-html5 mr-2" ></i>HTML</span>
+              <span class="badge rounded-pill text-light col-3 my-1" style="background-color: #0674b8"><i class="fa-brands fa-css3-alt mr-2"></i>CSS</span>
+              <span class="badge rounded-pill text-light col-3 my-1" style="background-color: #ffb800"><i class="fa-brands fa-js-square mr-2" ></i>JS</span>
+              <span class="badge rounded-pill bg-primary text-light col-4 my-1"><i class="fa-brands fa-python mr-2"></i>Django</span>
+            </div>
+          </div>
+          <div class="card mb-4" style="width: 18rem;">
+            <img src="static/abitarRevestimentosThumb.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-justify my-auto">Shopping website for a building materials store, it's integrated with an ERP platform (Bling) for importing products and updating stock and price.</p>
+            </div>
+            <div class="row justify-content-around mt-auto px-4 mb-3">
+              <span class="badge rounded-pill text-light col-3 my-1" style="background-color: #de3f13"><i class="fa-brands fa-html5 mr-2" ></i>HTML</span>
+              <span class="badge rounded-pill text-light col-3 my-1" style="background-color: #0674b8"><i class="fa-brands fa-css3-alt mr-2"></i>CSS</span>
+              <span class="badge rounded-pill text-light col-3 my-1" style="background-color: #ffb800"><i class="fa-brands fa-js-square mr-2" ></i>JS</span>
+              <span class="badge rounded-pill text-light col-4 my-1" style="background-color: #bf0713"><i class="fa-solid fa-gem" style="transform: rotate(-25deg); "></i>Ruby</span>
+              <span class="badge rounded-pill text-light col-4 my-1 bg-success"><i class="fa-solid fa-exclamation mr-2"></i>Bling</span>
+            </div>
+          </div>
+          <div class="card mb-4" style="width: 18rem;">
+            <img src="static/candyStoreThumb.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-justify">
+                Shopping website for a fictional candy store with an admin area to manage available products.
+                It's also possible to search for products in the store.
+              </p>
+            </div>
+            <div class="row justify-content-around mt-auto px-4 mb-3">
+              <span class="badge rounded-pill text-light col-3 my-1" style="background-color: #de3f13"><i class="fa-brands fa-html5 mr-2" ></i>HTML</span>
+              <span class="badge rounded-pill text-light col-3 my-1" style="background-color: #0674b8"><i class="fa-brands fa-css3-alt mr-2"></i>CSS</span>
+              <span class="badge rounded-pill text-light col-3 my-1" style="background-color: #ffb800"><i class="fa-brands fa-js-square mr-2" ></i>JS</span>
+              <span class="badge rounded-pill bg-primary text-light col-4 my-1"><i class="fa-brands fa-python mr-2"></i>Django</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-5">
+        <h2 id="contact" class="text-light mb-4 text-center">Contact Me</h2>
+        <div class="row justify-content-around text-light">
+          <div class="col-12 col-sm-5 mb-3 mb-sm-0 row justify-content-around h1">
+            <div class="col-12 col-md-6 justify-content-center d-flex mb-3">
+              <span class="d-flex align-items-center">
+                <a href="https://github.com/araujoG/" class="px-0 text-decoration-none text-light d-flex align-items-center">
+                  <i class="fa-brands fa-github mr-2 github"></i>
+                  <span class="h5 mb-0">Github</span>
+                </a>
+              </span>
+            </div>
+            <div class="col-12 col-md-6 justify-content-center d-flex mb-3">
+              <span class="d-flex align-items-center">
+                <a href="https://t.me/araujogas" class="px-0 text-decoration-none text-light d-flex align-items-center">
+                  <i class="fa-brands fa-telegram mr-2 telegram"></i>
+                  <span class="h5 mb-0">Telegram</span>
+                </a>
+              </span>
+            </div>
+            <div class="col-12 col-md-6 justify-content-center d-flex mb-3">
+              <span class="d-flex align-items-center">
+                <a href="https://www.linkedin.com/in/gabriel-araujo-2526511b1/" class="px-0 text-decoration-none text-light d-flex align-items-center">
+                  <i class="fa-brands fa-linkedin mr-2 linkedin"></i>
+                  <span class="h5 mb-0">Linkedin</span>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="col-12 col-sm-5">
+            <p class="d-none d-lg-block space-mono text-justify">
+              Interested in working together? If you wanna get in touch or talk about a project feel free to reach out to me.
+            </p>
+            <p class="d-lg-none space-mono text-center">
+              Interested in working together?
+            </p>
+            <p class="d-none d-sm-block d-lg-none space-mono text-justify">
+              If you wanna get in touch or talk about a project feel free to reach out to me.
+            </p>
+            <p class="d-sm-none space-mono text-center">
+              If you wanna get in touch or talk about a project feel free to reach out to me.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="ml-3 d-flex align-items-center">
+          <span class="text-light">Website designed and built by Gabriel Araujo</span>
+        </div>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
